@@ -67,7 +67,7 @@ class BMICalculator:
         height = float(self.height_ent.get())
         weight = float(self.weight_ent.get())
 
-        bmi = weight/(height * height)
+        bmi = weight / (height ** 2)
         return bmi
 
     def show_result(self):
