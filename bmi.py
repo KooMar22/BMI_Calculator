@@ -122,6 +122,7 @@ class BMICalculator:
         self.clear()
 
     def clear(self):
+        """Function to clear old values from the screen upon new entry."""
         self.weight_ent.delete(0, END)
         self.height_ent.delete(0, END)
         self.pretvori_btn.config(bg="light grey", state="disabled")
